@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 landscapes = []
-years = list(range(2019, 2025))
-values = [0.2092, 0.1736, 0.1825, 0.1180, 0.1893, 0.1688]
+years = list(range(2017, 2025))
+values = [0.1382, 0.1646, 0.1579, 0.1656, 0.1248, 0.1873, 0.1522, 0.2076]
 
 # Criar o gráfico
 plt.plot(years, values, marker='o', linestyle='-', color='b', label='NDVI')
@@ -15,7 +15,7 @@ plt.xlabel('Years')
 plt.ylabel('NDVI')
 
 # Adicionar um título
-plt.title('Average NDVI of pixels')
+plt.title('Average NDVI of pixels - Landsat 8')
 
 # Adicionar uma legenda
 plt.legend()
